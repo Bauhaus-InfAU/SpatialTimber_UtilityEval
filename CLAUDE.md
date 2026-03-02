@@ -51,7 +51,7 @@ When creating a new notebook, report, or ticket, use the next available sequence
 
 ## Status
 
-Phases 1–7 complete (48/79 tasks). Phases 8–12 planned (scope expansion 2026-02-28). See `PLAN.md` for full progress.
+Phases 1–8 complete (57/88 tasks). See `PLAN.md` for full progress.
 
 **Data pipeline**: `data.py` loads 8,322 apartments / 45,880 active rooms via `load_apartments()`. 7 apartment types: Studio (bedroom), Studio (living), 1-Bedroom through 5-Bedroom. Frozen `Room`/`Apartment` dataclasses with `apartment_type_idx` field, SHA-256 integrity manifest, apartment-level stratified split (80/10/10). `features.py` extracts 21 features (5 numeric + 9 room_type one-hot + 7 apt_type one-hot), pure numpy. No processed-data caching — JSONL re-parsed each call (~2-3 sec).
 
@@ -64,6 +64,8 @@ Phases 1–7 complete (48/79 tasks). Phases 8–12 planned (scope expansion 2026
 **CNN model** (Phase 6): Four versions trained (v1→v2→v3→v4). v4 adds apt_type embedding (4-dim for 7 types). MAE: 17.90→12.40→11.23→8.07. CNN v4 slightly beats LightGBM 21f (8.07 vs 8.24) — wins 6/9 room types, loses on WC and Children 3. Difference is small; LightGBM remains production model for simplicity. Best checkpoint at `models/cnn_v4.pt`.
 
 **Grasshopper integration** (Phase 7, complete): `predict_score()` inference API with `apartment_type` parameter. Backward-compatible with pre-apt-type checkpoints. GhPython component verified end-to-end in Rhino 8. `test_rooms.json` (7 rooms, real cnn_v4 expected scores) + `test_room_loader.py` GhPython component for automated test setup. 7 pytest tests passing.
+
+**Floor plan representation** (Phase 8, complete): `src/evaluation/` package with `ApartmentLayout`, `RoomLayout`, `WallSegment` frozen dataclasses + `load_rules()`. All scoring parameters in `src/evaluation/rules/*.json` (4 files: circulation, daylight, furnishability, composite) — no hardcoded rule dicts in Python. `SCORING.md` is full spec (logic/policy separation rationale, BFS algorithm, composite formula). 5 hand-crafted fixtures in `tests/fixtures/apartments/hand_crafted.json` (H01–H05) validated against JSON schema. `tests/fixtures/apartments/README.md` spec for Luyang. `plans/12-circulation.md` updated: BFS-distance model replaces old reachability model; entrance-room fallback for no-Hallway apartments. Two GhPython utilities: `apartment_reader.py` (JSON→GH geometry) and `apartment_writer.py` (GH geometry→JSON). H02 round-trip verified in Rhino. Apartment JSON validator at `src/evaluation/validate.py`: checks schema, polygon closure, entrance-on-boundary, door-touches-2-rooms, degenerate area; 0.3 m tolerance; CLI entry point. Pytest self-test at `tests/test_validate.py` (parametrized pass tests for H01–H05 + 7 mutation fail tests). Full documentation: [`src/evaluation/VALIDATE.md`](src/evaluation/VALIDATE.md).
 
 ## Reports
 

@@ -131,6 +131,22 @@ Each room's longest side is scaled to 60px and centered in the 64×64 grid. Abso
 
 All arrays share the same row index. Format: `(N, C, H, W)` — PyTorch convention.
 
+## Apartment JSON Validator
+
+Floor plan files (produced by hand or via `grasshopper/apartment_writer.py`) can
+be validated before use in the evaluation module:
+
+```bash
+uv run python -m src.evaluation.validate tests/fixtures/apartments/hand_crafted.json
+```
+
+Checks: JSON schema, polygon closure, entrance on outer boundary, each door
+touching ≥ 2 room boundaries, minimum room area (0.5 m²).  Default tolerance
+is 0.3 m — adjustable with `--tol`.
+
+See [`src/evaluation/VALIDATE.md`](src/evaluation/VALIDATE.md) for the full
+specification, including known limitations.
+
 ## Data Location
 
 Training data lives in the sibling repository:
