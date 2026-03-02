@@ -14,11 +14,24 @@ Training data: `../SpatialTimber_DesignExplorer/Furnisher/Apartment Quality Eval
 
 ## Domain Concepts
 
-- **Room types:** Bedroom, Living room, Bathroom, WC, Kitchen, Children 1–4
-- **Apartment types:** Studio (bedroom), Studio (living), 1-Bedroom, 2-Bedroom, 3-Bedroom, 4-Bedroom, 5-Bedroom
 - **Score (0–100):** furniture placement quality — 90+ excellent, 70–89 good, 40–69 problematic, <40 poor, 0 failed, null = room absent
 - **Polygon format:** closed polyline in meters, axis-aligned, counter-clockwise winding order
 - **Door:** position as a point on the room's wall
+
+**Type enumerations** — canonical source: `src/furnisher_surrogate/data.py:21–45` (exported via `__init__.py`). Note: the evaluation module (`src/evaluation/apartment.py`, Phase 8) adds **Hallway** as index 9 for circulation checks.
+
+| idx | Room type (surrogate) | | idx | Apartment type |
+|-----|-----------------------|-|-----|----------------|
+| 0 | Bedroom | | 0 | Studio (bedroom) |
+| 1 | Living room | | 1 | Studio (living) |
+| 2 | Bathroom | | 2 | 1-Bedroom |
+| 3 | WC | | 3 | 2-Bedroom |
+| 4 | Kitchen | | 4 | 3-Bedroom |
+| 5 | Children 1 | | 5 | 4-Bedroom |
+| 6 | Children 2 | | 6 | 5-Bedroom |
+| 7 | Children 3 | | | |
+| 8 | Children 4 | | | |
+| 9 | Hallway *(eval only)* | | | |
 
 ## Key Constraint
 
@@ -38,7 +51,7 @@ When creating a new notebook, report, or ticket, use the next available sequence
 
 ## Status
 
-All 7 phases complete (48/48 tasks). See `PLAN.md` for full progress.
+Phases 1–7 complete (48/79 tasks). Phases 8–12 planned (scope expansion 2026-02-28). See `PLAN.md` for full progress.
 
 **Data pipeline**: `data.py` loads 8,322 apartments / 45,880 active rooms via `load_apartments()`. 7 apartment types: Studio (bedroom), Studio (living), 1-Bedroom through 5-Bedroom. Frozen `Room`/`Apartment` dataclasses with `apartment_type_idx` field, SHA-256 integrity manifest, apartment-level stratified split (80/10/10). `features.py` extracts 21 features (5 numeric + 9 room_type one-hot + 7 apt_type one-hot), pure numpy. No processed-data caching — JSONL re-parsed each call (~2-3 sec).
 
@@ -164,7 +177,13 @@ For pending tasks: state key open questions + carry forward relevant conclusions
 **Deliverable types**: Report, Tool, Model, Dataset, Notebook, Component, Config
 **Conclusions are forward-looking** — not a recap of what was done, but what the next person needs to know
 
-7. **Tickets** (`tickets/*.md`) — Review open tickets:
+7. **Decision Log** — Every plan file (`plans/*.md`) and `PLAN.md` must have a `## Decisions Log` section.
+   - When implementing a phase, add an entry for each significant decision made.
+   - Decisions include: approach chosen, alternative rejected, scope change, key constraint discovered.
+   - Format: `- **<Short title>** (YYYY-MM-DD): <1–2 sentences.>`
+   - The Decision Log in `PLAN.md` documents WP-wide scope decisions only.
+
+8. **Tickets** (`tickets/*.md`) — Review open tickets:
    - Mark resolved tickets as `Status: resolved` if the issue was fixed during this session
    - If a ticket was addressed as part of a phase task, note which one
    - Do NOT create tickets during `/document` — tickets are created ad-hoc when issues are noticed
