@@ -19,7 +19,13 @@ Surrogate model to predict furniture placement scores (0–100) for residential 
 | 5 | **Baseline Model** | 5/5 | `done` | [details](plans/05-baseline-model.md) |
 | 6 | **CNN Model** | 6/6 | `done` | [details](plans/06-cnn-model.md) |
 | 7 | **Grasshopper** | 9/9 | `done` | [details](plans/07-grasshopper.md) |
-| | **Total** | **48/48** | | |
+| 8 | **Floor Plan Representation + Test Set** | 0/6 | `pending` | [details](plans/08-floor-plan-representation.md) |
+| 9 | **Speed/Accuracy Benchmark** | 0/7 | `pending` | [details](plans/09-accuracy-benchmark.md) |
+| 10 | **Simple Furnisher Surrogate** | 0/7 | `pending` | [details](plans/10-simple-surrogate.md) |
+| 11 | **Daylight Accessibility** | 0/6 | `pending` | [details](plans/11-daylight.md) |
+| 12 | **Circulation Accessibility** | 0/6 | `pending` | [details](plans/12-circulation.md) |
+| 13 | **Combined Reward + GH Integration** | 0/7 | `pending` | [details](plans/13-combined-reward.md) |
+| | **Total** | **48/85** | | |
 
 ## Documentation Strategy
 
@@ -38,6 +44,7 @@ Each fact lives in **one place**. See [CLAUDE.md](CLAUDE.md) for full protocol. 
 ```
 SpatialTimber_FurnisherSurrogate/
 ├── PLAN.md                        # This overview
+├── SCORING.md                     # Score definitions, ranges, aggregation rules (Phase 8)
 ├── plans/                         # Detailed phase plans
 ├── src/furnisher_surrogate/       # Python package
 │   ├── data.py                    # JSONL loading, splitting
@@ -72,3 +79,10 @@ SpatialTimber_FurnisherSurrogate/
 - [x] predict_score() API matches manual pipeline (bit-exact, 7 fixture rooms verified)
 - [x] apartment_type added across full stack (data, features, models, inference, GH component)
 - [x] Grasshopper component returns predictions in Rhino 8
+
+## Decisions Log
+
+- **WP2 scope narrowed to furnisher surrogate** (2026-02-23): Daylight and accessibility evaluators are fast enough to remain procedural (WP1). Only furnishability needs a DNN surrogate.
+- **Phase 8 revised: validity testing → speed/accuracy benchmark** (2026-02-28): Testing the procedural script's validity is WP1 scope. Phase 8 now focuses on the speed/accuracy trade-off, which is WP2-relevant.
+- **WP2 scope expanded: simple reward toolkit for RL** (2026-02-28): The actual WP2 deliverable for RL training needs more than the complex surrogate. Added: simple pass/fail furnisher (decision tree), daylight check, circulation check, and combined reward API. Rationale: at the current RL stage (prove-RL-works), simple + transparent + fast rewards are more valuable than accurate + opaque ones. For daylight and circulation, simple geometric rules are sufficient — unlike furnishability, which required the full ML pipeline because no analytical model existed.
+- **Phase structure revised: representation phase inserted** (2026-03-01): New Phase 8 dedicated to the shared floor plan representation, test set specification, and scoring documentation. Phases 9–13 renumbered from old 8–12. Test set outsourced to Luyang (existing cleaned floor plan database) plus 5 hand-crafted fixtures to unblock development. Combined reward (Phase 13) expanded to include GH integration.
