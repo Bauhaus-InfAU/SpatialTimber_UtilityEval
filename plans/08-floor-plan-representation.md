@@ -12,8 +12,8 @@ Define the shared input format for all 3 reward functions (furnishability, dayli
 
 - [ ] 8.1 Create `src/evaluation/` package; define `ApartmentLayout`, `RoomLayout`, `WallSegment` frozen dataclasses in `src/evaluation/apartment.py`
 - [ ] 8.2 Create `SCORING.md` at repo root — single source of truth for all score definitions, ranges, applicable rooms, aggregation rules, and composite formula
-- [ ] 8.3 Write test set specification (`tests/fixtures/apartments/README.md`) — exact JSON format and labeled cases Luyang must provide
-- [ ] 8.4 Create JSON schema for apartment format (`tests/fixtures/apartments/schema.json`)
+- [ ] 8.3 Create JSON schema (`tests/fixtures/apartments/schema.json`) — derived from the dataclasses in 8.1; must be consistent with them
+- [ ] 8.4 Write test set specification (`tests/fixtures/apartments/README.md`) — references schema.json; labeling instructions and required cases for Luyang
 - [ ] 8.5 Create 5 minimal hand-crafted pytest fixtures covering edge cases (no hallway, no exterior walls, fully connected) — unblocks Phases 11–12 before Luyang's data arrives
 - [ ] 8.6 Update PLAN.md + Notion
 
@@ -141,8 +141,8 @@ Notes for Luyang:
 | Tool | Apartment representation dataclasses | `src/evaluation/apartment.py` |
 | Config | Package init | `src/evaluation/__init__.py` |
 | Config | Scoring specification | `SCORING.md` |
-| Config | Apartment JSON schema | `tests/fixtures/apartments/schema.json` |
-| Config | Test set specification for Luyang | `tests/fixtures/apartments/README.md` |
+| Config | Apartment JSON schema (derived from 8.1 dataclasses) | `tests/fixtures/apartments/schema.json` |
+| Config | Test set specification for Luyang (references schema) | `tests/fixtures/apartments/README.md` |
 | Dataset | Hand-crafted test fixtures | `tests/fixtures/apartments/hand_crafted.json` |
 
 ---
@@ -151,6 +151,7 @@ Notes for Luyang:
 
 - **Representation phase inserted before benchmark** (2026-03-01): All three reward functions (furnishability, daylight, circulation) share the same `ApartmentLayout` input format. Defining it once in Phase 8 avoids duplication across Phases 11–13 and gives Luyang time to prepare labeled test data while Phases 9–10 run in parallel.
 - **Hand-crafted fixtures (Option B)** (2026-03-01): 5 minimal hand-crafted fixtures created in Phase 8 to unblock development of Phases 11–13. Luyang provides ~25 labeled apartments for comprehensive testing. Her data supplements rather than replaces the hand-crafted cases.
+- **Schema before README** (2026-03-02): Task order corrected — JSON schema (8.3) must be written before the README spec for Luyang (8.4), since the README references the schema and Luyang needs the schema to know what to export. Both are derived from the dataclasses in 8.1.
 
 ---
 
