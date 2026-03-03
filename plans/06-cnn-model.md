@@ -114,7 +114,7 @@ Same metrics as baseline (MAE, RMSE, R², per-room-type MAE) on same test set fo
 
 **Conclusion:** apartment_type improved both models substantially (v3→v4: −28%, baseline: −25%). CNN v4 slightly beats LightGBM 21f (8.07 vs 8.24). However, the difference is small (0.17 MAE) — LightGBM remains the production model for simplicity (no PyTorch inference needed).
 
-**Report:** [`reports/06-01_cnn-model-comparison.ipynb`](../reports/06-01_cnn-model-comparison.ipynb) | [HTML preview](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate/blob/main/reports/06-01_cnn-model-comparison.html)
+**Report:** [`reports/06-01_cnn-model-comparison.ipynb`](../reports/06-01_cnn-model-comparison.ipynb) | [HTML preview](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/06-01_cnn-model-comparison.html)
 
 ## Decisions Log
 

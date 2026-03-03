@@ -1,12 +1,25 @@
-# FurnisherSurrogate
+# SpatialTimber Utility Evaluator
 
-Surrogate model that predicts furniture placement quality scores for residential rooms, replacing a slow procedural scoring pipeline with a fast learned approximation.
+Reward function toolkit for RL-based apartment layout design — three evaluators (furnishability, daylight, circulation) combined into a composite score.
 
 ## Motivation
 
-The SpatialTimber project includes a procedural furnisher algorithm (implemented as a Grasshopper pipeline) that evaluates how well furniture can be placed in a given room. This score is essential for guiding generative architectural layout design via reinforcement learning.
+Reinforcement learning for architectural layout design needs fast, transparent reward signals across multiple utility dimensions. The SpatialTimber project evaluates apartment layouts along three axes:
 
-The problem: the procedural furnisher is far too slow to call inside an RL training loop. A single apartment evaluation takes seconds, and RL requires millions of evaluations. A surrogate model that approximates the furnisher score enables practical RL-based design exploration.
+- **Furnishability** — how well furniture can be placed in each room (ML surrogate, trained on a procedural Grasshopper furnisher)
+- **Daylight accessibility** — whether habitable rooms have sufficient window exposure (geometric edge-overlap check)
+- **Circulation accessibility** — whether all rooms are reachable from the entrance within a reasonable path length (BFS topological check)
+
+The composite of these three functions is the primary reward signal for the WP2 RL training loop. The furnisher surrogate addresses the speed bottleneck: the procedural furnisher takes seconds per apartment, which is too slow for millions of RL evaluations. Phase 10 also studies how an area-only simplification biases the furnishability estimate relative to the full surrogate.
+
+## Reward Functions
+
+| Function | Method | Phase | Status |
+|----------|--------|-------|--------|
+| Furnishability | ML surrogate (decision tree + CNN study) | 9–10 | Planned |
+| Daylight | Geometric edge-overlap check | 11 | Planned |
+| Circulation | BFS topological check | 12 | Planned |
+| Composite reward | Weighted mean of the three | 13 | Planned — primary WP2 deliverable |
 
 ## Training Data
 
@@ -68,13 +81,13 @@ Node scores aggregate upward through weighted averages, using option weights and
 
 For the full scoring formula, see the [Furnisher Score documentation](https://www.notion.so/spatialtimber/Furnisher-Score-1d6b1023b22680a9a0c5c7ad80ac8df0).
 
-## Surrogate Model Task
+## Furnishability Component
 
 **Input:** room outline (polygon), door position, room type
 
 **Output:** predicted score (0–100)
 
-The model predicts per-room scores, not per-apartment. Each room is scored independently.
+The furnishability reward uses a decision-tree surrogate trained on the procedural furnisher. Phase 9 benchmarks its speed/accuracy trade-off; Phase 10 distils it to interpretable area-based rules. The model predicts per-room scores, not per-apartment — each room is scored independently.
 
 ## Setup
 
@@ -98,7 +111,7 @@ For running predictions without training dependencies:
 
 ```bash
 pip install torch --index-url https://download.pytorch.org/whl/cpu
-pip install git+https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate.git[inference]
+pip install git+https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval.git[inference]
 ```
 
 See `grasshopper/README.md` for Rhino 8 setup details.

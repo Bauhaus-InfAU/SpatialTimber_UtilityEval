@@ -61,7 +61,7 @@ inference = ["numpy", "Pillow", "torch>=2.0.0"]
 Rhino 8 install:
 ```
 pip install torch --index-url https://download.pytorch.org/whl/cpu
-pip install git+https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate.git[inference]
+pip install git+https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval.git[inference]
 ```
 
 ## Test Suite

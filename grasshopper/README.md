@@ -1,12 +1,21 @@
-# Grasshopper Integration — Setup & Verification Guide
+# Grasshopper Components — Setup & Verification Guide
 
-Deploy the furnisher surrogate model as a Grasshopper component in Rhino 8.
+This repository includes several GhPython components for use in Rhino 8. This guide covers the furnisher surrogate component (Phase 7). The combined reward component (Phase 13, planned) will be documented here when implemented.
+
+## Available Components
+
+| Component | Script | Status | Purpose |
+|-----------|--------|--------|---------|
+| Furnisher surrogate | `surrogate_score.py` | Done (Phase 7) | Predicts furnishability score per room |
+| Apartment reader | `apartment_reader.py` | Done (Phase 8) | Loads JSON floor plan into GH geometry |
+| Apartment writer | `apartment_writer.py` | Done (Phase 8) | Exports GH geometry to JSON floor plan |
+| Combined reward | `reward_score.py` | Planned (Phase 13) | Computes all 3 reward functions + composite |
 
 ## Prerequisites
 
 - Rhino 8 installed (with CPython scripting support)
 - Internet access (to install packages and download model)
-- The `furnisher_surrogate` Python package is published at `https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate`
+- The `furnisher_surrogate` Python package is published at `https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval`
 - Trained model checkpoint (`.pt` file) available on W&B at `infau/furnisher-surrogate`
 
 All inference code (`predict.py`, `rasterize.py`, `models.py`) and the GhPython component script (`surrogate_score.py`) are already written and tested via pytest (7 fixture rooms, 7 test cases, all passing).

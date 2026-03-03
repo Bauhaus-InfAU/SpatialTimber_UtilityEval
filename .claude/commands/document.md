@@ -84,7 +84,7 @@ If none of these apply, skip this step entirely.
 Notion IDs (from CLAUDE.md):
 - **WP2 page:** `2f802b874c688070985bfa3f34938c50`
 - **Tasks data source:** `collection://12d02b87-4c68-8126-a0dc-000bc9955625`
-- **Repo base URL for links:** `https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate/blob/main/`
+- **Repo base URL for links:** `https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/`
 
 ### 6a. Sync WP2 project page
 1. Fetch the WP2 page to see current content.

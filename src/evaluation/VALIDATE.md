@@ -1,8 +1,7 @@
 # Apartment JSON Validator
 
 `src/evaluation/validate.py` validates apartment JSON files before they are
-used by the evaluation module (daylight, circulation, furnishability reward
-functions).  It checks both structural correctness (via JSON schema) and
+used by the three reward functions (furnishability, daylight, circulation).  It checks both structural correctness (via JSON schema) and
 geometric plausibility (polygon closure, boundary proximity, area).
 
 ---

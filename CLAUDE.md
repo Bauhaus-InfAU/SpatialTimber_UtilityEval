@@ -2,9 +2,9 @@
 
 ## Project
 
-FurnisherSurrogate — a surrogate model to approximate slow procedural furniture placement scores for use in RL training.
+Architectural utility evaluator for RL-based apartment layout design. Three reward functions — furnishability (ML surrogate, Phase 10), daylight (geometric, Phase 11), circulation (BFS topological, Phase 12) — combined into a composite score (Phase 13). The furnisher surrogate model (Phases 1–7) is one component; it also studies how area-based simplification biases the furnishability estimate.
 
-**Repo:** `https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate` (**PUBLIC** — never commit secrets, keys, or credentials)
+**Repo:** `https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval` (**PUBLIC** — never commit secrets, keys, or credentials)
 
 **Secrets:** Store API keys in `.env` (gitignored). Never hardcode keys in code or tracked files.
 
@@ -73,10 +73,10 @@ Reports from completed phases live in `reports/`. Check these before starting ne
 
 | Report | Phase | Contents | Preview |
 |--------|-------|----------|---------|
-| `reports/03-01_eda-findings.ipynb` | 3 (EDA) | Score distributions, feature correlations, failure analysis, data boundaries | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate/blob/main/reports/03-01_eda-findings.html) |
-| `reports/03-03_apartment_type_eda.ipynb` | 3 (EDA) | Apartment type effect on scores, Kruskal-Wallis tests, controlled comparison, failure rates | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate/blob/main/reports/03-03_apartment_type_eda.html) |
-| `reports/04-01_rasterization-verification.html` | 4 (Rasterization) | Visual verification, edge cases, fill ratio checks, dataset stats, UMAP | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate/blob/main/reports/04-01_rasterization-verification.html) |
-| `reports/06-01_cnn-model-comparison.ipynb` | 6 (CNN Model) | Architecture evolution v1→v4, baseline comparison, per-room-type analysis | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate/blob/main/reports/06-01_cnn-model-comparison.html) |
+| `reports/03-01_eda-findings.ipynb` | 3 (EDA) | Score distributions, feature correlations, failure analysis, data boundaries | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/03-01_eda-findings.html) |
+| `reports/03-03_apartment_type_eda.ipynb` | 3 (EDA) | Apartment type effect on scores, Kruskal-Wallis tests, controlled comparison, failure rates | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/03-03_apartment_type_eda.html) |
+| `reports/04-01_rasterization-verification.html` | 4 (Rasterization) | Visual verification, edge cases, fill ratio checks, dataset stats, UMAP | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/04-01_rasterization-verification.html) |
+| `reports/06-01_cnn-model-comparison.ipynb` | 6 (CNN Model) | Architecture evolution v1→v4, baseline comparison, per-room-type analysis | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/06-01_cnn-model-comparison.html) |
 
 ## Notion
 
@@ -91,8 +91,8 @@ Workspace: **Spatial Timber** | Hub page: `12d02b874c6880269a34eca3dd867edf`
 - **WP2 page:** `2f802b874c688070985bfa3f34938c50`
 - **Martin (user):** `user://4e65cb83-7da9-47b5-aa9b-76a0c47a4b48`
 - Use Notion MCP tools to read/update. Tasks are created in the Tasks data source with `Project` relation pointing to WP2.
-- **Linking convention:** When referencing repo files in Notion (task descriptions, project pages), always use full GitHub URLs so readers can click through — e.g. `[plans/03-eda.md](https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate/blob/main/plans/03-eda.md)`, not bare backtick paths.
-- **HTML report links:** For HTML reports in `reports/`, use `htmlpreview.github.io` preview URLs instead of raw GitHub links. Pattern: `https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_FurnisherSurrogate/blob/main/reports/{filename}.html`. Use these in Notion task Deliverables tables and in plan file Outcome sections.
+- **Linking convention:** When referencing repo files in Notion (task descriptions, project pages), always use full GitHub URLs so readers can click through — e.g. `[plans/03-eda.md](https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/plans/03-eda.md)`, not bare backtick paths.
+- **HTML report links:** For HTML reports in `reports/`, use `htmlpreview.github.io` preview URLs instead of raw GitHub links. Pattern: `https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/{filename}.html`. Use these in Notion task Deliverables tables and in plan file Outcome sections.
 
 ## Notebook Collaboration
 

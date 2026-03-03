@@ -1,8 +1,8 @@
-# FurnisherSurrogate — ML Strategy
+# SpatialTimber Utility Evaluator — Implementation Plan
 
-Surrogate model to predict furniture placement scores (0–100) for residential rooms. Two models: tabular baseline (LightGBM) and CNN on rasterized images.
+Three-function reward toolkit for RL-based apartment layout design. Furnishability (ML surrogate + decision tree), daylight (geometric), and circulation (topological) evaluators combined into a composite score — the primary WP2 deliverable for RL training.
 
-**Data**: 8,322 apartments, 45,880 active rooms | Bimodal scores: 13k zeros + 19k excellent (90–100) | Mean 62.2, median 85.0
+**Data**: 8,322 apartments, 45,880 active rooms (furnishability training data; daylight/circulation need no training data) | Bimodal scores: 13k zeros + 19k excellent (90–100) | Mean 62.2, median 85.0
 **System**: Python 3.12, uv, RTX 4060 8GB, Rhino 8 (CPython)
 **Data location**: `../SpatialTimber_DesignExplorer/Furnisher/Apartment Quality Evaluation/apartments.jsonl`
 
@@ -42,7 +42,7 @@ Each fact lives in **one place**. See [CLAUDE.md](CLAUDE.md) for full protocol. 
 ## Project Structure
 
 ```
-SpatialTimber_FurnisherSurrogate/
+SpatialTimber_UtilityEval/
 ├── PLAN.md                        # This overview
 ├── SCORING.md                     # Score definitions, ranges, aggregation rules (Phase 8)
 ├── plans/                         # Detailed phase plans

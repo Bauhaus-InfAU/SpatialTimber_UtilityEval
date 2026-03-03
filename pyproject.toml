@@ -1,7 +1,7 @@
 [project]
-name = "furnisher-surrogate"
+name = "spatial-timber-utility-eval"
 version = "0.1.0"
-description = "Surrogate model for furniture placement quality scores"
+description = "Architectural utility evaluator — furnishability, daylight, and circulation reward functions for RL-based apartment layout design"
 requires-python = ">=3.10"
 dependencies = [
     "torch>=2.7.0",
