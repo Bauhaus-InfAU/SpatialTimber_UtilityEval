@@ -1,0 +1,21 @@
+{
+  "n_rooms": 180,
+  "cnn_v4": {
+    "cold_start_ms": 21.45,
+    "warm_ms_per_room": 2.3866,
+    "warm_total_seconds": [
+      0.4296,
+      0.4427,
+      0.4258
+    ]
+  },
+  "lgbm": {
+    "cold_start_ms": 42.64,
+    "warm_ms_per_room": 0.0684,
+    "warm_total_seconds": [
+      1.495609,
+      0.010978,
+      0.012307
+    ]
+  }
+}

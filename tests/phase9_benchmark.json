@@ -1,0 +1,6482 @@
+[
+  {
+    "name": "bedroom_q1_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.5725,
+        0.0
+      ],
+      [
+        3.5725,
+        1.8235
+      ],
+      [
+        0.0,
+        1.8235
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.7862,
+      1.8235
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q1_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.9845,
+        0.0
+      ],
+      [
+        2.9845,
+        2.1827
+      ],
+      [
+        0.0,
+        2.1827
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.4923,
+      0.0
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q1_lshape_0",
+    "polygon": [
+      [
+        0.8132,
+        0.0
+      ],
+      [
+        3.7406,
+        0.0
+      ],
+      [
+        3.7406,
+        1.8563
+      ],
+      [
+        0.0,
+        1.8563
+      ],
+      [
+        0.0,
+        0.5279
+      ],
+      [
+        0.8132,
+        0.5279
+      ],
+      [
+        0.8132,
+        0.0
+      ]
+    ],
+    "door": [
+      2.2769,
+      0.0
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bedroom_q1_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.1004,
+        0.0
+      ],
+      [
+        3.1004,
+        1.6057
+      ],
+      [
+        2.107,
+        1.6057
+      ],
+      [
+        2.107,
+        2.3347
+      ],
+      [
+        0.0,
+        2.3347
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.1004,
+      0.8029
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bedroom_q2_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.5101,
+        0.0
+      ],
+      [
+        4.5101,
+        2.6945
+      ],
+      [
+        0.0,
+        2.6945
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.2551,
+      0.0
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q2_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.0975,
+        0.0
+      ],
+      [
+        5.0975,
+        2.384
+      ],
+      [
+        0.0,
+        2.384
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.192
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q2_lshape_0",
+    "polygon": [
+      [
+        1.0891,
+        0.0
+      ],
+      [
+        4.4806,
+        0.0
+      ],
+      [
+        4.4806,
+        2.9666
+      ],
+      [
+        0.0,
+        2.9666
+      ],
+      [
+        0.0,
+        1.0463
+      ],
+      [
+        1.0891,
+        1.0463
+      ],
+      [
+        1.0891,
+        0.0
+      ]
+    ],
+    "door": [
+      2.7849,
+      0.0
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "bedroom_q2_lshape_1",
+    "polygon": [
+      [
+        1.719,
+        0.0
+      ],
+      [
+        4.6522,
+        0.0
+      ],
+      [
+        4.6522,
+        2.9634
+      ],
+      [
+        0.0,
+        2.9634
+      ],
+      [
+        0.0,
+        0.9505
+      ],
+      [
+        1.719,
+        0.9505
+      ],
+      [
+        1.719,
+        0.0
+      ]
+    ],
+    "door": [
+      1.719,
+      0.4753
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bedroom_q3_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.171,
+        0.0
+      ],
+      [
+        5.171,
+        3.0613
+      ],
+      [
+        0.0,
+        3.0613
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.5307
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q3_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.2073,
+        0.0
+      ],
+      [
+        4.2073,
+        3.7625
+      ],
+      [
+        0.0,
+        3.7625
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.1036,
+      3.7625
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q3_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.6391,
+        0.0
+      ],
+      [
+        5.6391,
+        3.022
+      ],
+      [
+        1.2063,
+        3.022
+      ],
+      [
+        1.2063,
+        2.0179
+      ],
+      [
+        0.0,
+        2.0179
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.8195,
+      0.0
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bedroom_q3_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.1883,
+        0.0
+      ],
+      [
+        6.1883,
+        2.7106
+      ],
+      [
+        1.3627,
+        2.7106
+      ],
+      [
+        1.3627,
+        2.0178
+      ],
+      [
+        0.0,
+        2.0178
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      6.1883,
+      1.3553
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "5-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bedroom_q4_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.3457,
+        0.0
+      ],
+      [
+        5.3457,
+        3.4371
+      ],
+      [
+        0.0,
+        3.4371
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.6728,
+      3.4371
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q4_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.1414,
+        0.0
+      ],
+      [
+        6.1414,
+        2.9918
+      ],
+      [
+        0.0,
+        2.9918
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.0707,
+      0.0
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "4-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q4_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.1701,
+        0.0
+      ],
+      [
+        6.1701,
+        2.4215
+      ],
+      [
+        4.2769,
+        2.4215
+      ],
+      [
+        4.2769,
+        3.2242
+      ],
+      [
+        0.0,
+        3.2242
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.2769,
+      2.8228
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "bedroom_q4_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.3038,
+        0.0
+      ],
+      [
+        5.3038,
+        3.7752
+      ],
+      [
+        1.7907,
+        3.7752
+      ],
+      [
+        1.7907,
+        2.8543
+      ],
+      [
+        0.0,
+        2.8543
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.6519,
+      0.0
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bedroom_q5_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.6284,
+        0.0
+      ],
+      [
+        5.6284,
+        4.1891
+      ],
+      [
+        0.0,
+        4.1891
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.8142,
+      4.1891
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q5_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.1454,
+        0.0
+      ],
+      [
+        6.1454,
+        3.8367
+      ],
+      [
+        0.0,
+        3.8367
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      6.1454,
+      1.9184
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "bedroom_q5_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        7.8734,
+        0.0
+      ],
+      [
+        7.8734,
+        2.4489
+      ],
+      [
+        4.9187,
+        2.4489
+      ],
+      [
+        4.9187,
+        3.3225
+      ],
+      [
+        0.0,
+        3.3225
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.9187,
+      2.8857
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bedroom_q5_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.4511,
+        0.0
+      ],
+      [
+        5.4511,
+        0.8367
+      ],
+      [
+        7.6967,
+        0.8367
+      ],
+      [
+        7.6967,
+        3.3075
+      ],
+      [
+        0.0,
+        3.3075
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.6538
+    ],
+    "room_type": "Bedroom",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q1_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.1219,
+        0.0
+      ],
+      [
+        4.1219,
+        2.2376
+      ],
+      [
+        0.0,
+        2.2376
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.1188
+    ],
+    "room_type": "Living room",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q1_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.6524,
+        0.0
+      ],
+      [
+        4.6524,
+        1.9825
+      ],
+      [
+        0.0,
+        1.9825
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.3262,
+      1.9825
+    ],
+    "room_type": "Living room",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q1_lshape_0",
+    "polygon": [
+      [
+        1.0936,
+        0.0
+      ],
+      [
+        3.6224,
+        0.0
+      ],
+      [
+        3.6224,
+        2.7257
+      ],
+      [
+        0.0,
+        2.7257
+      ],
+      [
+        0.0,
+        0.5947
+      ],
+      [
+        1.0936,
+        0.5947
+      ],
+      [
+        1.0936,
+        0.0
+      ]
+    ],
+    "door": [
+      2.358,
+      0.0
+    ],
+    "room_type": "Living room",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q1_lshape_1",
+    "polygon": [
+      [
+        1.2735,
+        0.0
+      ],
+      [
+        3.5531,
+        0.0
+      ],
+      [
+        3.5531,
+        2.8905
+      ],
+      [
+        0.0,
+        2.8905
+      ],
+      [
+        0.0,
+        0.8221
+      ],
+      [
+        1.2735,
+        0.8221
+      ],
+      [
+        1.2735,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.8563
+    ],
+    "room_type": "Living room",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q2_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.3881,
+        0.0
+      ],
+      [
+        5.3881,
+        3.4266
+      ],
+      [
+        0.0,
+        3.4266
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.694,
+      3.4266
+    ],
+    "room_type": "Living room",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q2_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.7347,
+        0.0
+      ],
+      [
+        6.7347,
+        2.7414
+      ],
+      [
+        0.0,
+        2.7414
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.3673,
+      0.0
+    ],
+    "room_type": "Living room",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q2_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.4501,
+        0.0
+      ],
+      [
+        6.4501,
+        3.1924
+      ],
+      [
+        2.1694,
+        3.1924
+      ],
+      [
+        2.1694,
+        2.2111
+      ],
+      [
+        0.0,
+        2.2111
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.1056
+    ],
+    "room_type": "Living room",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q2_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.5156,
+        0.0
+      ],
+      [
+        5.5156,
+        3.6521
+      ],
+      [
+        1.5827,
+        3.6521
+      ],
+      [
+        1.5827,
+        2.5902
+      ],
+      [
+        0.0,
+        2.5902
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.7914,
+      2.5902
+    ],
+    "room_type": "Living room",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q3_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        7.2029,
+        0.0
+      ],
+      [
+        7.2029,
+        3.3612
+      ],
+      [
+        0.0,
+        3.3612
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.6014,
+      0.0
+    ],
+    "room_type": "Living room",
+    "apartment_type": "3-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q3_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        7.4715,
+        0.0
+      ],
+      [
+        7.4715,
+        3.2403
+      ],
+      [
+        0.0,
+        3.2403
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      7.4715,
+      1.6202
+    ],
+    "room_type": "Living room",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q3_lshape_0",
+    "polygon": [
+      [
+        1.3291,
+        0.0
+      ],
+      [
+        5.7211,
+        0.0
+      ],
+      [
+        5.7211,
+        4.6541
+      ],
+      [
+        0.0,
+        4.6541
+      ],
+      [
+        0.0,
+        1.8184
+      ],
+      [
+        1.3291,
+        1.8184
+      ],
+      [
+        1.3291,
+        0.0
+      ]
+    ],
+    "door": [
+      0.6645,
+      1.8184
+    ],
+    "room_type": "Living room",
+    "apartment_type": "5-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q3_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.189,
+        0.0
+      ],
+      [
+        6.189,
+        4.1642
+      ],
+      [
+        1.3763,
+        4.1642
+      ],
+      [
+        1.3763,
+        3.0291
+      ],
+      [
+        0.0,
+        3.0291
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      6.189,
+      2.0821
+    ],
+    "room_type": "Living room",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q4_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.5571,
+        0.0
+      ],
+      [
+        5.5571,
+        5.1128
+      ],
+      [
+        0.0,
+        5.1128
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.7785,
+      0.0
+    ],
+    "room_type": "Living room",
+    "apartment_type": "3-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q4_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.6624,
+        0.0
+      ],
+      [
+        5.6624,
+        5.0177
+      ],
+      [
+        0.0,
+        5.0177
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.8312,
+      0.0
+    ],
+    "room_type": "Living room",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q4_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        8.7272,
+        0.0
+      ],
+      [
+        8.7272,
+        2.7392
+      ],
+      [
+        5.645,
+        2.7392
+      ],
+      [
+        5.645,
+        3.5376
+      ],
+      [
+        0.0,
+        3.5376
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.8225,
+      3.5376
+    ],
+    "room_type": "Living room",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q4_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.9402,
+        0.0
+      ],
+      [
+        3.9402,
+        1.437
+      ],
+      [
+        6.2992,
+        1.437
+      ],
+      [
+        6.2992,
+        5.0487
+      ],
+      [
+        0.0,
+        5.0487
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.1496,
+      5.0487
+    ],
+    "room_type": "Living room",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q5_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        8.9761,
+        0.0
+      ],
+      [
+        8.9761,
+        4.2084
+      ],
+      [
+        0.0,
+        4.2084
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      8.9761,
+      2.1042
+    ],
+    "room_type": "Living room",
+    "apartment_type": "4-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q5_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        8.8415,
+        0.0
+      ],
+      [
+        8.8415,
+        4.2725
+      ],
+      [
+        0.0,
+        4.2725
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.4208,
+      4.2725
+    ],
+    "room_type": "Living room",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "living_room_q5_lshape_0",
+    "polygon": [
+      [
+        2.3848,
+        0.0
+      ],
+      [
+        8.2151,
+        0.0
+      ],
+      [
+        8.2151,
+        4.9574
+      ],
+      [
+        0.0,
+        4.9574
+      ],
+      [
+        0.0,
+        1.2373
+      ],
+      [
+        2.3848,
+        1.2373
+      ],
+      [
+        2.3848,
+        0.0
+      ]
+    ],
+    "door": [
+      4.1076,
+      4.9574
+    ],
+    "room_type": "Living room",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "living_room_q5_lshape_1",
+    "polygon": [
+      [
+        1.584,
+        0.0
+      ],
+      [
+        6.4386,
+        0.0
+      ],
+      [
+        6.4386,
+        6.2417
+      ],
+      [
+        0.0,
+        6.2417
+      ],
+      [
+        0.0,
+        1.5232
+      ],
+      [
+        1.584,
+        1.5232
+      ],
+      [
+        1.584,
+        0.0
+      ]
+    ],
+    "door": [
+      1.584,
+      0.7616
+    ],
+    "room_type": "Living room",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q1_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.1765,
+        0.0
+      ],
+      [
+        2.1765,
+        1.1181
+      ],
+      [
+        0.0,
+        1.1181
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.0883,
+      0.0
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q1_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.3955,
+        0.0
+      ],
+      [
+        2.3955,
+        1.0159
+      ],
+      [
+        0.0,
+        1.0159
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.1978,
+      1.0159
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q1_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.2705,
+        0.0
+      ],
+      [
+        1.2705,
+        0.4584
+      ],
+      [
+        1.7069,
+        0.4584
+      ],
+      [
+        1.7069,
+        1.5429
+      ],
+      [
+        0.0,
+        1.5429
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.7715
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q1_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.5191,
+        0.0
+      ],
+      [
+        2.5191,
+        0.7876
+      ],
+      [
+        1.725,
+        0.7876
+      ],
+      [
+        1.725,
+        1.0482
+      ],
+      [
+        0.0,
+        1.0482
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.725,
+      0.9179
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q2_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.4831,
+        0.0
+      ],
+      [
+        2.4831,
+        1.9315
+      ],
+      [
+        0.0,
+        1.9315
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.9657
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q2_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.7102,
+        0.0
+      ],
+      [
+        2.7102,
+        1.7697
+      ],
+      [
+        0.0,
+        1.7697
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.8848
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q2_lshape_0",
+    "polygon": [
+      [
+        1.1925,
+        0.0
+      ],
+      [
+        3.5633,
+        0.0
+      ],
+      [
+        3.5633,
+        1.5521
+      ],
+      [
+        0.0,
+        1.5521
+      ],
+      [
+        0.0,
+        0.6159
+      ],
+      [
+        1.1925,
+        0.6159
+      ],
+      [
+        1.1925,
+        0.0
+      ]
+    ],
+    "door": [
+      2.3779,
+      0.0
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q2_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.8502,
+        0.0
+      ],
+      [
+        1.8502,
+        0.3999
+      ],
+      [
+        2.8915,
+        0.3999
+      ],
+      [
+        2.8915,
+        1.8027
+      ],
+      [
+        0.0,
+        1.8027
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.8502,
+      0.2
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q3_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.3803,
+        0.0
+      ],
+      [
+        3.3803,
+        1.8733
+      ],
+      [
+        0.0,
+        1.8733
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.9367
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q3_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.8417,
+        0.0
+      ],
+      [
+        2.8417,
+        2.2284
+      ],
+      [
+        0.0,
+        2.2284
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.8417,
+      1.1142
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q3_lshape_0",
+    "polygon": [
+      [
+        1.1689,
+        0.0
+      ],
+      [
+        4.0498,
+        0.0
+      ],
+      [
+        4.0498,
+        1.7519
+      ],
+      [
+        0.0,
+        1.7519
+      ],
+      [
+        0.0,
+        0.6522
+      ],
+      [
+        1.1689,
+        0.6522
+      ],
+      [
+        1.1689,
+        0.0
+      ]
+    ],
+    "door": [
+      2.6094,
+      0.0
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q3_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.4216,
+        0.0
+      ],
+      [
+        2.4216,
+        0.7618
+      ],
+      [
+        3.8268,
+        0.7618
+      ],
+      [
+        3.8268,
+        1.9345
+      ],
+      [
+        0.0,
+        1.9345
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.4216,
+      0.3809
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q4_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.444,
+        0.0
+      ],
+      [
+        3.444,
+        2.1396
+      ],
+      [
+        0.0,
+        2.1396
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.444,
+      1.0698
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q4_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.1141,
+        0.0
+      ],
+      [
+        4.1141,
+        1.7911
+      ],
+      [
+        0.0,
+        1.7911
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.1141,
+      0.8955
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q4_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.5644,
+        0.0
+      ],
+      [
+        3.5644,
+        1.4617
+      ],
+      [
+        2.6624,
+        1.4617
+      ],
+      [
+        2.6624,
+        2.2725
+      ],
+      [
+        0.0,
+        2.2725
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.1134,
+      1.4617
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q4_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.7084,
+        0.0
+      ],
+      [
+        3.7084,
+        1.5629
+      ],
+      [
+        2.2284,
+        1.5629
+      ],
+      [
+        2.2284,
+        2.2688
+      ],
+      [
+        0.0,
+        2.2688
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.7084,
+      0.7814
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q5_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.494,
+        0.0
+      ],
+      [
+        3.494,
+        2.7194
+      ],
+      [
+        0.0,
+        2.7194
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.747,
+      0.0
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q5_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.2138,
+        0.0
+      ],
+      [
+        4.2138,
+        2.2549
+      ],
+      [
+        0.0,
+        2.2549
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.1069,
+      0.0
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "3-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "bathroom_q5_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.6626,
+        0.0
+      ],
+      [
+        3.6626,
+        0.6453
+      ],
+      [
+        4.6363,
+        0.6453
+      ],
+      [
+        4.6363,
+        2.1849
+      ],
+      [
+        0.0,
+        2.1849
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.8313,
+      0.0
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "bathroom_q5_lshape_1",
+    "polygon": [
+      [
+        1.8583,
+        0.0
+      ],
+      [
+        5.0188,
+        0.0
+      ],
+      [
+        5.0188,
+        2.0559
+      ],
+      [
+        0.0,
+        2.0559
+      ],
+      [
+        0.0,
+        0.4394
+      ],
+      [
+        1.8583,
+        0.4394
+      ],
+      [
+        1.8583,
+        0.0
+      ]
+    ],
+    "door": [
+      1.8583,
+      0.2197
+    ],
+    "room_type": "Bathroom",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q1_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.3138,
+        0.0
+      ],
+      [
+        1.3138,
+        0.573
+      ],
+      [
+        0.0,
+        0.573
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.6569,
+      0.0
+    ],
+    "room_type": "WC",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q1_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.3477,
+        0.0
+      ],
+      [
+        1.3477,
+        0.5587
+      ],
+      [
+        0.0,
+        0.5587
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.3477,
+      0.2793
+    ],
+    "room_type": "WC",
+    "apartment_type": "3-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q1_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.2446,
+        0.0
+      ],
+      [
+        1.2446,
+        0.6662
+      ],
+      [
+        0.4031,
+        0.6662
+      ],
+      [
+        0.4031,
+        0.4771
+      ],
+      [
+        0.0,
+        0.4771
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.8239,
+      0.6662
+    ],
+    "room_type": "WC",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q1_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.7567,
+        0.0
+      ],
+      [
+        0.7567,
+        0.1989
+      ],
+      [
+        1.0265,
+        0.1989
+      ],
+      [
+        1.0265,
+        0.7857
+      ],
+      [
+        0.0,
+        0.7857
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.3929
+    ],
+    "room_type": "WC",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q2_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.7627,
+        0.0
+      ],
+      [
+        1.7627,
+        0.8956
+      ],
+      [
+        0.0,
+        0.8956
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.8814,
+      0.8956
+    ],
+    "room_type": "WC",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q2_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.9438,
+        0.0
+      ],
+      [
+        1.9438,
+        0.8121
+      ],
+      [
+        0.0,
+        0.8121
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.9719,
+      0.0
+    ],
+    "room_type": "WC",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q2_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0255,
+        0.0
+      ],
+      [
+        1.0255,
+        0.2171
+      ],
+      [
+        1.7069,
+        0.2171
+      ],
+      [
+        1.7069,
+        1.0115
+      ],
+      [
+        0.0,
+        1.0115
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.8534,
+      1.0115
+    ],
+    "room_type": "WC",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q2_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.6031,
+        0.0
+      ],
+      [
+        1.6031,
+        1.1469
+      ],
+      [
+        0.603,
+        1.1469
+      ],
+      [
+        0.603,
+        0.7158
+      ],
+      [
+        0.0,
+        0.7158
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.1031,
+      1.1469
+    ],
+    "room_type": "WC",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q3_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.6637,
+        0.0
+      ],
+      [
+        1.6637,
+        1.3454
+      ],
+      [
+        0.0,
+        1.3454
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.8318,
+      1.3454
+    ],
+    "room_type": "WC",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q3_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.0717,
+        0.0
+      ],
+      [
+        2.0717,
+        1.0804
+      ],
+      [
+        0.0,
+        1.0804
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.0358,
+      0.0
+    ],
+    "room_type": "WC",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q3_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.6391,
+        0.0
+      ],
+      [
+        1.6391,
+        0.368
+      ],
+      [
+        2.2146,
+        0.368
+      ],
+      [
+        2.2146,
+        1.1063
+      ],
+      [
+        0.0,
+        1.1063
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.9269,
+      0.368
+    ],
+    "room_type": "WC",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q3_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.6899,
+        0.0
+      ],
+      [
+        1.6899,
+        1.4405
+      ],
+      [
+        0.5889,
+        1.4405
+      ],
+      [
+        0.5889,
+        1.1076
+      ],
+      [
+        0.0,
+        1.1076
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.2945,
+      1.1076
+    ],
+    "room_type": "WC",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q4_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.89,
+        0.0
+      ],
+      [
+        1.89,
+        1.4362
+      ],
+      [
+        0.0,
+        1.4362
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.89,
+      0.7181
+    ],
+    "room_type": "WC",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q4_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.3481,
+        0.0
+      ],
+      [
+        2.3481,
+        1.156
+      ],
+      [
+        0.0,
+        1.156
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.1741,
+      1.156
+    ],
+    "room_type": "WC",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q4_lshape_0",
+    "polygon": [
+      [
+        0.898,
+        0.0
+      ],
+      [
+        2.3566,
+        0.0
+      ],
+      [
+        2.3566,
+        1.3404
+      ],
+      [
+        0.0,
+        1.3404
+      ],
+      [
+        0.0,
+        0.4949
+      ],
+      [
+        0.898,
+        0.4949
+      ],
+      [
+        0.898,
+        0.0
+      ]
+    ],
+    "door": [
+      0.898,
+      0.2475
+    ],
+    "room_type": "WC",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q4_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.7154,
+        0.0
+      ],
+      [
+        1.7154,
+        0.3536
+      ],
+      [
+        2.1682,
+        0.3536
+      ],
+      [
+        2.1682,
+        1.3258
+      ],
+      [
+        0.0,
+        1.3258
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.6629
+    ],
+    "room_type": "WC",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q5_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.0031,
+        0.0
+      ],
+      [
+        3.0031,
+        1.216
+      ],
+      [
+        0.0,
+        1.216
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.608
+    ],
+    "room_type": "WC",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q5_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.5833,
+        0.0
+      ],
+      [
+        2.5833,
+        1.4136
+      ],
+      [
+        0.0,
+        1.4136
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.2917,
+      0.0
+    ],
+    "room_type": "WC",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "wc_q5_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.1985,
+        0.0
+      ],
+      [
+        2.1985,
+        1.8826
+      ],
+      [
+        0.8372,
+        1.8826
+      ],
+      [
+        0.8372,
+        1.3006
+      ],
+      [
+        0.0,
+        1.3006
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.4186,
+      1.3006
+    ],
+    "room_type": "WC",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "wc_q5_lshape_1",
+    "polygon": [
+      [
+        0.6007,
+        0.0
+      ],
+      [
+        2.664,
+        0.0
+      ],
+      [
+        2.664,
+        1.4567
+      ],
+      [
+        0.0,
+        1.4567
+      ],
+      [
+        0.0,
+        0.3811
+      ],
+      [
+        0.6007,
+        0.3811
+      ],
+      [
+        0.6007,
+        0.0
+      ]
+    ],
+    "door": [
+      1.332,
+      1.4567
+    ],
+    "room_type": "WC",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q1_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.2749,
+        0.0
+      ],
+      [
+        2.2749,
+        1.7298
+      ],
+      [
+        0.0,
+        1.7298
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.1375,
+      0.0
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q1_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.4542,
+        0.0
+      ],
+      [
+        2.4542,
+        1.6035
+      ],
+      [
+        0.0,
+        1.6035
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.8017
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "3-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q1_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.5077,
+        0.0
+      ],
+      [
+        2.5077,
+        0.5114
+      ],
+      [
+        3.2606,
+        0.5114
+      ],
+      [
+        3.2606,
+        1.325
+      ],
+      [
+        0.0,
+        1.325
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.5077,
+      0.2557
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q1_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.1703,
+        0.0
+      ],
+      [
+        3.1703,
+        0.8398
+      ],
+      [
+        2.4225,
+        0.8398
+      ],
+      [
+        2.4225,
+        1.3652
+      ],
+      [
+        0.0,
+        1.3652
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.6826
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q2_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.2147,
+        0.0
+      ],
+      [
+        4.2147,
+        1.8356
+      ],
+      [
+        0.0,
+        1.8356
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.2147,
+      0.9178
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q2_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.2913,
+        0.0
+      ],
+      [
+        3.2913,
+        2.3506
+      ],
+      [
+        0.0,
+        2.3506
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.6456,
+      0.0
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q2_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.6596,
+        0.0
+      ],
+      [
+        3.6596,
+        1.7568
+      ],
+      [
+        2.2993,
+        1.7568
+      ],
+      [
+        2.2993,
+        2.3253
+      ],
+      [
+        0.0,
+        2.3253
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.9794,
+      1.7568
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q2_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.2047,
+        0.0
+      ],
+      [
+        2.2047,
+        0.5911
+      ],
+      [
+        3.5234,
+        0.5911
+      ],
+      [
+        3.5234,
+        2.4169
+      ],
+      [
+        0.0,
+        2.4169
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.5234,
+      1.504
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "5-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q3_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.954,
+        0.0
+      ],
+      [
+        3.954,
+        2.6494
+      ],
+      [
+        0.0,
+        2.6494
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.977,
+      0.0
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q3_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.0665,
+        0.0
+      ],
+      [
+        5.0665,
+        2.0677
+      ],
+      [
+        0.0,
+        2.0677
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.5332,
+      2.0677
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q3_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.8437,
+        0.0
+      ],
+      [
+        4.8437,
+        2.4685
+      ],
+      [
+        1.627,
+        2.4685
+      ],
+      [
+        1.627,
+        1.5583
+      ],
+      [
+        0.0,
+        1.5583
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.4219,
+      0.0
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q3_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.6798,
+        0.0
+      ],
+      [
+        3.6798,
+        3.1371
+      ],
+      [
+        0.8674,
+        3.1371
+      ],
+      [
+        0.8674,
+        1.9057
+      ],
+      [
+        0.0,
+        1.9057
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.8399,
+      0.0
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q4_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.8149,
+        0.0
+      ],
+      [
+        3.8149,
+        3.2814
+      ],
+      [
+        0.0,
+        3.2814
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.9075,
+      3.2814
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q4_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.1184,
+        0.0
+      ],
+      [
+        5.1184,
+        2.4457
+      ],
+      [
+        0.0,
+        2.4457
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.2229
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q4_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.97,
+        0.0
+      ],
+      [
+        3.97,
+        1.0168
+      ],
+      [
+        5.1102,
+        1.0168
+      ],
+      [
+        5.1102,
+        2.6765
+      ],
+      [
+        0.0,
+        2.6765
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.5401,
+      1.0168
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q4_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.0416,
+        0.0
+      ],
+      [
+        3.0416,
+        1.3734
+      ],
+      [
+        3.8037,
+        1.3734
+      ],
+      [
+        3.8037,
+        3.5662
+      ],
+      [
+        0.0,
+        3.5662
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.4226,
+      1.3734
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q5_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.2695,
+        0.0
+      ],
+      [
+        5.2695,
+        3.1995
+      ],
+      [
+        0.0,
+        3.1995
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.6347,
+      3.1995
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "4-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q5_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.7113,
+        0.0
+      ],
+      [
+        5.7113,
+        2.952
+      ],
+      [
+        0.0,
+        2.952
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.8557,
+      0.0
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "4-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "kitchen_q5_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.2433,
+        0.0
+      ],
+      [
+        6.2433,
+        3.0021
+      ],
+      [
+        1.8819,
+        3.0021
+      ],
+      [
+        1.8819,
+        2.0013
+      ],
+      [
+        0.0,
+        2.0013
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.8819,
+      2.5017
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "kitchen_q5_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.0706,
+        0.0
+      ],
+      [
+        6.0706,
+        2.1244
+      ],
+      [
+        4.702,
+        2.1244
+      ],
+      [
+        4.702,
+        2.9673
+      ],
+      [
+        0.0,
+        2.9673
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.4837
+    ],
+    "room_type": "Kitchen",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q1_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.3261,
+        0.0
+      ],
+      [
+        3.3261,
+        1.5673
+      ],
+      [
+        0.0,
+        1.5673
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.663,
+      1.5673
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q1_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.8962,
+        0.0
+      ],
+      [
+        2.8962,
+        1.7999
+      ],
+      [
+        0.0,
+        1.7999
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.4481,
+      0.0
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q1_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.8884,
+        0.0
+      ],
+      [
+        2.8884,
+        1.984
+      ],
+      [
+        0.826,
+        1.984
+      ],
+      [
+        0.826,
+        1.3571
+      ],
+      [
+        0.0,
+        1.3571
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.826,
+      1.6706
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q1_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.3137,
+        0.0
+      ],
+      [
+        2.3137,
+        0.5414
+      ],
+      [
+        3.0553,
+        0.5414
+      ],
+      [
+        3.0553,
+        1.8376
+      ],
+      [
+        0.0,
+        1.8376
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.9188
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q2_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.2476,
+        0.0
+      ],
+      [
+        3.2476,
+        2.8812
+      ],
+      [
+        0.0,
+        2.8812
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.6238,
+      2.8812
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "3-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q2_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.2661,
+        0.0
+      ],
+      [
+        3.2661,
+        2.8648
+      ],
+      [
+        0.0,
+        2.8648
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.2661,
+      1.4324
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q2_lshape_0",
+    "polygon": [
+      [
+        1.6359,
+        0.0
+      ],
+      [
+        4.5276,
+        0.0
+      ],
+      [
+        4.5276,
+        2.2535
+      ],
+      [
+        0.0,
+        2.2535
+      ],
+      [
+        0.0,
+        0.5171
+      ],
+      [
+        1.6359,
+        0.5171
+      ],
+      [
+        1.6359,
+        0.0
+      ]
+    ],
+    "door": [
+      4.5276,
+      1.1267
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q2_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.0164,
+        0.0
+      ],
+      [
+        5.0164,
+        1.5914
+      ],
+      [
+        3.1606,
+        1.5914
+      ],
+      [
+        3.1606,
+        2.0261
+      ],
+      [
+        0.0,
+        2.0261
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.013
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q3_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.7067,
+        0.0
+      ],
+      [
+        4.7067,
+        2.5257
+      ],
+      [
+        0.0,
+        2.5257
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.2628
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "4-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q3_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.5501,
+        0.0
+      ],
+      [
+        4.5501,
+        2.6126
+      ],
+      [
+        0.0,
+        2.6126
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.5501,
+      1.3063
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q3_lshape_0",
+    "polygon": [
+      [
+        1.9833,
+        0.0
+      ],
+      [
+        5.2395,
+        0.0
+      ],
+      [
+        5.2395,
+        2.6408
+      ],
+      [
+        0.0,
+        2.6408
+      ],
+      [
+        0.0,
+        0.9826
+      ],
+      [
+        1.9833,
+        0.9826
+      ],
+      [
+        1.9833,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.8117
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q3_lshape_1",
+    "polygon": [
+      [
+        1.6577,
+        0.0
+      ],
+      [
+        4.2332,
+        0.0
+      ],
+      [
+        4.2332,
+        3.187
+      ],
+      [
+        0.0,
+        3.187
+      ],
+      [
+        0.0,
+        0.9676
+      ],
+      [
+        1.6577,
+        0.9676
+      ],
+      [
+        1.6577,
+        0.0
+      ]
+    ],
+    "door": [
+      0.8289,
+      0.9676
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "5-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q4_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.3332,
+        0.0
+      ],
+      [
+        4.3332,
+        3.1542
+      ],
+      [
+        0.0,
+        3.1542
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.1666,
+      0.0
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q4_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.7986,
+        0.0
+      ],
+      [
+        4.7986,
+        2.8483
+      ],
+      [
+        0.0,
+        2.8483
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.4242
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q4_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.5895,
+        0.0
+      ],
+      [
+        5.5895,
+        1.7036
+      ],
+      [
+        3.8059,
+        1.7036
+      ],
+      [
+        3.8059,
+        2.7928
+      ],
+      [
+        0.0,
+        2.7928
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.903,
+      2.7928
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q4_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.8383,
+        0.0
+      ],
+      [
+        5.8383,
+        1.6251
+      ],
+      [
+        4.1724,
+        1.6251
+      ],
+      [
+        4.1724,
+        2.6269
+      ],
+      [
+        0.0,
+        2.6269
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      5.8383,
+      0.8125
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q5_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.0607,
+        0.0
+      ],
+      [
+        6.0607,
+        2.8649
+      ],
+      [
+        0.0,
+        2.8649
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.4325
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q5_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.9106,
+        0.0
+      ],
+      [
+        4.9106,
+        3.5359
+      ],
+      [
+        0.0,
+        3.5359
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.4553,
+      3.5359
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_1_q5_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        6.3461,
+        0.0
+      ],
+      [
+        6.3461,
+        2.2214
+      ],
+      [
+        4.4618,
+        2.2214
+      ],
+      [
+        4.4618,
+        2.9534
+      ],
+      [
+        0.0,
+        2.9534
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.1731,
+      0.0
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_1_q5_lshape_1",
+    "polygon": [
+      [
+        1.5789,
+        0.0
+      ],
+      [
+        6.2077,
+        0.0
+      ],
+      [
+        6.2077,
+        2.9984
+      ],
+      [
+        0.0,
+        2.9984
+      ],
+      [
+        0.0,
+        0.7914
+      ],
+      [
+        1.5789,
+        0.7914
+      ],
+      [
+        1.5789,
+        0.0
+      ]
+    ],
+    "door": [
+      6.2077,
+      1.4992
+    ],
+    "room_type": "Children 1",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q1_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.497,
+        0.0
+      ],
+      [
+        2.497,
+        2.0363
+      ],
+      [
+        0.0,
+        2.0363
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.497,
+      1.0182
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q1_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.2361,
+        0.0
+      ],
+      [
+        3.2361,
+        1.5712
+      ],
+      [
+        0.0,
+        1.5712
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.7856
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q1_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.956,
+        0.0
+      ],
+      [
+        2.956,
+        1.4447
+      ],
+      [
+        2.0893,
+        1.4447
+      ],
+      [
+        2.0893,
+        1.8344
+      ],
+      [
+        0.0,
+        1.8344
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.0893,
+      1.6395
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q1_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.6082,
+        0.0
+      ],
+      [
+        3.6082,
+        1.2186
+      ],
+      [
+        2.2039,
+        1.2186
+      ],
+      [
+        2.2039,
+        1.5307
+      ],
+      [
+        0.0,
+        1.5307
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.2039,
+      1.3746
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q2_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.0339,
+        0.0
+      ],
+      [
+        3.0339,
+        3.0073
+      ],
+      [
+        0.0,
+        3.0073
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.5169,
+      3.0073
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q2_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.4086,
+        0.0
+      ],
+      [
+        4.4086,
+        2.0696
+      ],
+      [
+        0.0,
+        2.0696
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.0348
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q2_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.9554,
+        0.0
+      ],
+      [
+        2.9554,
+        0.7591
+      ],
+      [
+        4.2784,
+        0.7591
+      ],
+      [
+        4.2784,
+        2.3672
+      ],
+      [
+        0.0,
+        2.3672
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.2784,
+      1.5632
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q2_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.6356,
+        0.0
+      ],
+      [
+        3.6356,
+        1.9755
+      ],
+      [
+        2.5554,
+        1.9755
+      ],
+      [
+        2.5554,
+        2.7353
+      ],
+      [
+        0.0,
+        2.7353
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.3677
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q3_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.8474,
+        0.0
+      ],
+      [
+        3.8474,
+        3.0839
+      ],
+      [
+        0.0,
+        3.0839
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.8474,
+      1.5419
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q3_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.4147,
+        0.0
+      ],
+      [
+        5.4147,
+        2.1912
+      ],
+      [
+        0.0,
+        2.1912
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.7074,
+      0.0
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "3-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q3_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.4708,
+        0.0
+      ],
+      [
+        5.4708,
+        1.8416
+      ],
+      [
+        3.7591,
+        1.8416
+      ],
+      [
+        3.7591,
+        2.3177
+      ],
+      [
+        0.0,
+        2.3177
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      5.4708,
+      0.9208
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q3_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.2518,
+        0.0
+      ],
+      [
+        4.2518,
+        0.6454
+      ],
+      [
+        5.3825,
+        0.6454
+      ],
+      [
+        5.3825,
+        2.3399
+      ],
+      [
+        0.0,
+        2.3399
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      5.3825,
+      1.4927
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q4_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.5096,
+        0.0
+      ],
+      [
+        4.5096,
+        3.026
+      ],
+      [
+        0.0,
+        3.026
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.513
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q4_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.3979,
+        0.0
+      ],
+      [
+        4.3979,
+        3.1028
+      ],
+      [
+        0.0,
+        3.1028
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.5514
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q4_lshape_0",
+    "polygon": [
+      [
+        1.3465,
+        0.0
+      ],
+      [
+        4.5789,
+        0.0
+      ],
+      [
+        4.5789,
+        3.3219
+      ],
+      [
+        0.0,
+        3.3219
+      ],
+      [
+        0.0,
+        1.162
+      ],
+      [
+        1.3465,
+        1.162
+      ],
+      [
+        1.3465,
+        0.0
+      ]
+    ],
+    "door": [
+      2.2895,
+      3.3219
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q4_lshape_1",
+    "polygon": [
+      [
+        1.6196,
+        0.0
+      ],
+      [
+        4.5462,
+        0.0
+      ],
+      [
+        4.5462,
+        3.402
+      ],
+      [
+        0.0,
+        3.402
+      ],
+      [
+        0.0,
+        1.1239
+      ],
+      [
+        1.6196,
+        1.1239
+      ],
+      [
+        1.6196,
+        0.0
+      ]
+    ],
+    "door": [
+      4.5462,
+      1.701
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q5_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.7174,
+        0.0
+      ],
+      [
+        4.7174,
+        3.6314
+      ],
+      [
+        0.0,
+        3.6314
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.7174,
+      1.8157
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q5_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.8229,
+        0.0
+      ],
+      [
+        4.8229,
+        3.552
+      ],
+      [
+        0.0,
+        3.552
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.4115,
+      0.0
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_2_q5_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.8426,
+        0.0
+      ],
+      [
+        5.8426,
+        3.1651
+      ],
+      [
+        1.7119,
+        3.1651
+      ],
+      [
+        1.7119,
+        2.3698
+      ],
+      [
+        0.0,
+        2.3698
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      5.8426,
+      1.5825
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_2_q5_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.0059,
+        0.0
+      ],
+      [
+        4.0059,
+        1.1369
+      ],
+      [
+        6.1034,
+        1.1369
+      ],
+      [
+        6.1034,
+        3.1975
+      ],
+      [
+        0.0,
+        3.1975
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      5.0546,
+      1.1369
+    ],
+    "room_type": "Children 2",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q1_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.5336,
+        0.0
+      ],
+      [
+        2.5336,
+        2.1801
+      ],
+      [
+        0.0,
+        2.1801
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.2668,
+      2.1801
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q1_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.2084,
+        0.0
+      ],
+      [
+        3.2084,
+        1.7215
+      ],
+      [
+        0.0,
+        1.7215
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.8608
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q1_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.9749,
+        0.0
+      ],
+      [
+        2.9749,
+        0.5313
+      ],
+      [
+        3.7907,
+        0.5313
+      ],
+      [
+        3.7907,
+        1.5715
+      ],
+      [
+        0.0,
+        1.5715
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.4875,
+      0.0
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q1_lshape_1",
+    "polygon": [
+      [
+        1.3249,
+        0.0
+      ],
+      [
+        3.5802,
+        0.0
+      ],
+      [
+        3.5802,
+        1.7501
+      ],
+      [
+        0.0,
+        1.7501
+      ],
+      [
+        0.0,
+        0.5602
+      ],
+      [
+        1.3249,
+        0.5602
+      ],
+      [
+        1.3249,
+        0.0
+      ]
+    ],
+    "door": [
+      0.6624,
+      0.5602
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q2_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.4692,
+        0.0
+      ],
+      [
+        4.4692,
+        2.0558
+      ],
+      [
+        0.0,
+        2.0558
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.0279
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q2_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.2783,
+        0.0
+      ],
+      [
+        4.2783,
+        2.1475
+      ],
+      [
+        0.0,
+        2.1475
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.1392,
+      2.1475
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q2_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.191,
+        0.0
+      ],
+      [
+        3.191,
+        3.1316
+      ],
+      [
+        1.163,
+        3.1316
+      ],
+      [
+        1.163,
+        2.4392
+      ],
+      [
+        0.0,
+        2.4392
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.2196
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q2_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.8794,
+        0.0
+      ],
+      [
+        4.8794,
+        2.0876
+      ],
+      [
+        1.6661,
+        2.0876
+      ],
+      [
+        1.6661,
+        1.4882
+      ],
+      [
+        0.0,
+        1.4882
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.8331,
+      1.4882
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q3_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.8519,
+        0.0
+      ],
+      [
+        4.8519,
+        2.1932
+      ],
+      [
+        0.0,
+        2.1932
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.0966
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "3-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q3_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.2499,
+        0.0
+      ],
+      [
+        4.2499,
+        2.5039
+      ],
+      [
+        0.0,
+        2.5039
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.1249,
+      2.5039
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q3_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.1413,
+        0.0
+      ],
+      [
+        4.1413,
+        2.1849
+      ],
+      [
+        2.625,
+        2.1849
+      ],
+      [
+        2.625,
+        2.7917
+      ],
+      [
+        0.0,
+        2.7917
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.1413,
+      1.0925
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q3_lshape_1",
+    "polygon": [
+      [
+        1.6047,
+        0.0
+      ],
+      [
+        4.9825,
+        0.0
+      ],
+      [
+        4.9825,
+        2.3439
+      ],
+      [
+        0.0,
+        2.3439
+      ],
+      [
+        0.0,
+        0.6464
+      ],
+      [
+        1.6047,
+        0.6464
+      ],
+      [
+        1.6047,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.4952
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q4_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.1832,
+        0.0
+      ],
+      [
+        5.1832,
+        2.2769
+      ],
+      [
+        0.0,
+        2.2769
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.1385
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q4_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.9442,
+        0.0
+      ],
+      [
+        3.9442,
+        2.9922
+      ],
+      [
+        0.0,
+        2.9922
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.9721,
+      2.9922
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q4_lshape_0",
+    "polygon": [
+      [
+        1.5033,
+        0.0
+      ],
+      [
+        4.4184,
+        0.0
+      ],
+      [
+        4.4184,
+        2.9251
+      ],
+      [
+        0.0,
+        2.9251
+      ],
+      [
+        0.0,
+        0.7466
+      ],
+      [
+        1.5033,
+        0.7466
+      ],
+      [
+        1.5033,
+        0.0
+      ]
+    ],
+    "door": [
+      0.7516,
+      0.7466
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "3-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q4_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.1673,
+        0.0
+      ],
+      [
+        4.1673,
+        0.6438
+      ],
+      [
+        5.5436,
+        0.6438
+      ],
+      [
+        5.5436,
+        2.2888
+      ],
+      [
+        0.0,
+        2.2888
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.1444
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q5_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.9299,
+        0.0
+      ],
+      [
+        4.9299,
+        2.876
+      ],
+      [
+        0.0,
+        2.876
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.438
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "4-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q5_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.8693,
+        0.0
+      ],
+      [
+        4.8693,
+        2.9118
+      ],
+      [
+        0.0,
+        2.9118
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.4346,
+      0.0
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_3_q5_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.7347,
+        0.0
+      ],
+      [
+        4.7347,
+        3.2849
+      ],
+      [
+        1.602,
+        3.2849
+      ],
+      [
+        1.602,
+        2.4268
+      ],
+      [
+        0.0,
+        2.4268
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.602,
+      2.8558
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_3_q5_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.3683,
+        0.0
+      ],
+      [
+        5.3683,
+        2.9331
+      ],
+      [
+        1.5305,
+        2.9331
+      ],
+      [
+        1.5305,
+        1.9089
+      ],
+      [
+        0.0,
+        1.9089
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      3.4494,
+      2.9331
+    ],
+    "room_type": "Children 3",
+    "apartment_type": "1-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q1_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.2335,
+        0.0
+      ],
+      [
+        3.2335,
+        1.574
+      ],
+      [
+        0.0,
+        1.574
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.6167,
+      1.574
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q1_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.6474,
+        0.0
+      ],
+      [
+        2.6474,
+        1.9224
+      ],
+      [
+        0.0,
+        1.9224
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.6474,
+      0.9612
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q1_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.0091,
+        0.0
+      ],
+      [
+        2.0091,
+        0.6937
+      ],
+      [
+        2.8998,
+        0.6937
+      ],
+      [
+        2.8998,
+        1.9682
+      ],
+      [
+        0.0,
+        1.9682
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.0091,
+      0.3468
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q1_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.7087,
+        0.0
+      ],
+      [
+        2.7087,
+        2.0449
+      ],
+      [
+        0.6915,
+        2.0449
+      ],
+      [
+        0.6915,
+        1.3948
+      ],
+      [
+        0.0,
+        1.3948
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.3543,
+      0.0
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q2_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.4024,
+        0.0
+      ],
+      [
+        4.4024,
+        1.9575
+      ],
+      [
+        0.0,
+        1.9575
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.4024,
+      0.9788
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q2_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.6446,
+        0.0
+      ],
+      [
+        3.6446,
+        2.3646
+      ],
+      [
+        0.0,
+        2.3646
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      1.8223,
+      0.0
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "1-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q2_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.4451,
+        0.0
+      ],
+      [
+        4.4451,
+        2.1557
+      ],
+      [
+        1.1329,
+        2.1557
+      ],
+      [
+        1.1329,
+        1.3045
+      ],
+      [
+        0.0,
+        1.3045
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      0.6522
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "Studio (living)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q2_lshape_1",
+    "polygon": [
+      [
+        1.809,
+        0.0
+      ],
+      [
+        4.8408,
+        0.0
+      ],
+      [
+        4.8408,
+        2.0035
+      ],
+      [
+        0.0,
+        2.0035
+      ],
+      [
+        0.0,
+        0.5974
+      ],
+      [
+        1.809,
+        0.5974
+      ],
+      [
+        1.809,
+        0.0
+      ]
+    ],
+    "door": [
+      0.9045,
+      0.5974
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q3_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.8961,
+        0.0
+      ],
+      [
+        3.8961,
+        2.7312
+      ],
+      [
+        0.0,
+        2.7312
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.3656
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "2-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q3_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.0099,
+        0.0
+      ],
+      [
+        4.0099,
+        2.6537
+      ],
+      [
+        0.0,
+        2.6537
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.0049,
+      2.6537
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q3_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.1904,
+        0.0
+      ],
+      [
+        5.1904,
+        1.6937
+      ],
+      [
+        4.0339,
+        1.6937
+      ],
+      [
+        4.0339,
+        2.1523
+      ],
+      [
+        0.0,
+        2.1523
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.5952,
+      0.0
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q3_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.5674,
+        0.0
+      ],
+      [
+        4.5674,
+        2.4483
+      ],
+      [
+        0.9625,
+        2.4483
+      ],
+      [
+        0.9625,
+        1.8856
+      ],
+      [
+        0.0,
+        1.8856
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.2837,
+      0.0
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q4_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.4324,
+        0.0
+      ],
+      [
+        5.4324,
+        2.1809
+      ],
+      [
+        0.0,
+        2.1809
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.0905
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q4_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.7563,
+        0.0
+      ],
+      [
+        4.7563,
+        2.4909
+      ],
+      [
+        0.0,
+        2.4909
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.7563,
+      1.2454
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "5-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q4_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.2891,
+        0.0
+      ],
+      [
+        5.2891,
+        1.7392
+      ],
+      [
+        3.7547,
+        1.7392
+      ],
+      [
+        3.7547,
+        2.4446
+      ],
+      [
+        0.0,
+        2.4446
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      4.5219,
+      1.7392
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q4_lshape_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.3715,
+        0.0
+      ],
+      [
+        3.3715,
+        0.9339
+      ],
+      [
+        4.9722,
+        0.9339
+      ],
+      [
+        4.9722,
+        2.6834
+      ],
+      [
+        0.0,
+        2.6834
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      0.0,
+      1.3417
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "Studio (bedroom)",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q5_rect_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.3077,
+        0.0
+      ],
+      [
+        4.3077,
+        3.272
+      ],
+      [
+        0.0,
+        3.272
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.1538,
+      0.0
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "4-Bedroom",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q5_rect_1",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.1731,
+        0.0
+      ],
+      [
+        4.1731,
+        3.3774
+      ],
+      [
+        0.0,
+        3.3774
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.0866,
+      0.0
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "Studio (living)",
+    "shape": "rect"
+  },
+  {
+    "name": "children_4_q5_lshape_0",
+    "polygon": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        4.3792,
+        0.0
+      ],
+      [
+        4.3792,
+        3.5465
+      ],
+      [
+        1.2704,
+        3.5465
+      ],
+      [
+        1.2704,
+        2.416
+      ],
+      [
+        0.0,
+        2.416
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "door": [
+      2.1896,
+      0.0
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "2-Bedroom",
+    "shape": "lshape"
+  },
+  {
+    "name": "children_4_q5_lshape_1",
+    "polygon": [
+      [
+        1.1754,
+        0.0
+      ],
+      [
+        4.5816,
+        0.0
+      ],
+      [
+        4.5816,
+        3.4008
+      ],
+      [
+        0.0,
+        3.4008
+      ],
+      [
+        0.0,
+        1.2648
+      ],
+      [
+        1.1754,
+        1.2648
+      ],
+      [
+        1.1754,
+        0.0
+      ]
+    ],
+    "door": [
+      1.1754,
+      0.6324
+    ],
+    "room_type": "Children 4",
+    "apartment_type": "4-Bedroom",
+    "shape": "lshape"
+  }
+]

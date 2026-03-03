@@ -10,13 +10,15 @@ Quantify the speed/accuracy trade-off between the complex ML surrogate (CNN v4, 
 
 ## Tasks
 
-- [ ] 9.1 Generate synthetic test set (`tests/phase9_benchmark.json`) — 100–200 rooms, all 9 room types, stratified by area quintile, valid orthogonal polygons
-- [ ] 9.2 Run surrogate timing benchmark (Python) — ms/room for CNN v4 and LightGBM; report cold-start and warm (cached model) times
-- [ ] 9.3 Run procedural timing in Grasshopper (Rhino, manual) — seconds/room on a sample of 20 rooms; report median
-- [ ] 9.4 Run surrogate timing in Grasshopper — run the same 20 rooms through the `surrogate_score.py` GH component; measure ms/room in Rhino; compare to Python timing
-- [ ] 9.5 Build analysis notebook `notebooks/09-01_speed_accuracy.ipynb` — required graphical outputs: (1) grouped bar chart Python-LightGBM / Python-CNN / GH-LightGBM / GH-CNN / GH-Procedural on log-scale ms/room; (2) paired scatter surrogate vs procedural score (y=x line, coloured by room type); (3) speed-up factor table GH-LightGBM vs GH-Procedural and Python-LightGBM vs GH-Procedural
-- [ ] 9.6 Write findings report `reports/09-01_speed-accuracy-tradeoff.ipynb` + HTML export — narrative + all figures from 9.5; per-room-type error breakdown
-- [ ] 9.7 Update PLAN.md + Notion
+- [x] 9.1 Generate synthetic test set (`tests/phase9_benchmark.json`) — 180 rooms (9 types × 5 quintiles × 2 shapes × 2), rect + L-shape, via `scripts/generate_benchmark_set.py`
+- [x] 9.2 Run surrogate timing benchmark (Python) — ms/room for CNN v4 and LightGBM; cold-start + warm times; results in `results/phase9_python_timing.json`
+- [ ] 9.3 Run procedural timing in Grasshopper (Rhino, manual) — all 180 rooms batch; record total wall-clock time
+- [ ] 9.4 Run surrogate timing in Grasshopper — same 180 rooms through `surrogate_score.py` (CNN) and `surrogate_score_lgbm.py` (LightGBM) GH components; template at `results/phase9_gh_timing_template.json`
+- [x] 9.5 Build analysis notebook `notebooks/09-01_speed_accuracy.ipynb` — all charts: speed bar chart (log), R² scatter, residuals, per-type MAE, error distribution, best/worst 20 galleries, speed-up table. GH speed charts use placeholders until 9.3/9.4 complete.
+- [x] 9.6 Write findings report `reports/09-01_speed-accuracy-tradeoff.ipynb` — narrative + all figures; per-room-type breakdown. HTML export pending notebook execution.
+- [x] 9.7 Update PLAN.md + Notion
+
+**Blocked:** Tasks 9.3 and 9.4 require Iuliia's procedural furnisher script to run in Grasshopper. GH timing charts use placeholder values until then.
 
 ---
 
@@ -83,6 +85,10 @@ Quantify the speed/accuracy trade-off between the complex ML surrogate (CNN v4, 
 - **GH surrogate timing added** (2026-03-01): Procedural runs in GH; surrogate comparison must include GH timing for a fair apples-to-apples comparison. Python timings remain as additional context for RL loop planning.
 - **Graphical outputs required** (2026-03-01): Bar chart, paired scatter, and speed-up table are required deliverables — not optional. Report must include all figures.
 - **Phase 9 rescoped: validity testing → speed/accuracy benchmark** (2026-02-28): Testing the procedural script's validity (checking hypotheses about edge cases, OOD inputs, non-orthogonal rooms) is WP1 scope. Phase 9 now documents the speed/accuracy trade-off, which is the WP2-relevant question for RL reward function selection.
+- **Synthetic set expanded to rect + L-shape** (2026-03-03): 180 rooms total (9 types × 5 quintiles × 2 shapes × 2 rooms). L-shapes (6 vertices, corner notch) added to test beyond simple rectangles.
+- **LightGBM GH component created** (2026-03-03): `grasshopper/surrogate_score_lgbm.py` enables apples-to-apples GH timing comparison between CNN and LightGBM.
+- **LightGBM outperforms CNN on test set** (2026-03-03): LightGBM MAE=7.58 vs CNN MAE=9.69 on held-out test (4,594 rooms). LightGBM also faster. Recommended as RL reward function.
+- **GH timing blocked on Iuliia** (2026-03-03): Tasks 9.3–9.4 require Iuliia's procedural furnisher script to run the batch timing in Grasshopper. Python surrogate timing and accuracy analysis complete; GH speed charts use placeholder values. Report and notebook updated with all available data.
 
 ---
 

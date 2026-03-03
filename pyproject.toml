@@ -18,6 +18,7 @@ dependencies = [
     "plotly",
     "minisom",
     "pandas",
+    "seaborn",
 ]
 
 [project.optional-dependencies]

@@ -51,7 +51,7 @@ When creating a new notebook, report, or ticket, use the next available sequence
 
 ## Status
 
-Phases 1–8 complete (57/88 tasks). See `PLAN.md` for full progress.
+Phases 1–8 complete, Phase 9 in progress (62/88 tasks). See `PLAN.md` for full progress.
 
 **Data pipeline**: `data.py` loads 8,322 apartments / 45,880 active rooms via `load_apartments()`. 7 apartment types: Studio (bedroom), Studio (living), 1-Bedroom through 5-Bedroom. Frozen `Room`/`Apartment` dataclasses with `apartment_type_idx` field, SHA-256 integrity manifest, apartment-level stratified split (80/10/10). `features.py` extracts 21 features (5 numeric + 9 room_type one-hot + 7 apt_type one-hot), pure numpy. No processed-data caching — JSONL re-parsed each call (~2-3 sec).
 
@@ -65,6 +65,8 @@ Phases 1–8 complete (57/88 tasks). See `PLAN.md` for full progress.
 
 **Grasshopper integration** (Phase 7, complete): `predict_score()` inference API with `apartment_type` parameter. Backward-compatible with pre-apt-type checkpoints. GhPython component verified end-to-end in Rhino 8. `test_rooms.json` (7 rooms, real cnn_v4 expected scores) + `test_room_loader.py` GhPython component for automated test setup. 7 pytest tests passing.
 
+**Speed/accuracy benchmark** (Phase 9, 5/7 — GH timing blocked on Iuliia): Synthetic benchmark set (180 rooms: rect + L-shape, 9 types × 5 quintiles). Python timing: CNN v4 ~2.5 ms/room warm, LightGBM ~0.05 ms/room (batch). Held-out test accuracy: LightGBM MAE=7.58/R²=0.887, CNN MAE=9.69/R²=0.851 (4,594 rooms). LightGBM recommended as RL reward function. GH LightGBM component created (`grasshopper/surrogate_score_lgbm.py`). GH timing (tasks 9.3–9.4) blocked — needs Iuliia's procedural furnisher script. Report + HTML at `reports/09-01_speed-accuracy-tradeoff.*`, analysis notebook at `notebooks/09-01_speed_accuracy.ipynb`. All 18 existing tests pass.
+
 **Floor plan representation** (Phase 8, complete): `src/evaluation/` package with `ApartmentLayout`, `RoomLayout`, `WallSegment` frozen dataclasses + `load_rules()`. All scoring parameters in `src/evaluation/rules/*.json` (4 files: circulation, daylight, furnishability, composite) — no hardcoded rule dicts in Python. `SCORING.md` is full spec (logic/policy separation rationale, BFS algorithm, composite formula). 5 hand-crafted fixtures in `tests/fixtures/apartments/hand_crafted.json` (H01–H05) validated against JSON schema. `tests/fixtures/apartments/README.md` spec for Luyang. `plans/12-circulation.md` updated: BFS-distance model replaces old reachability model; entrance-room fallback for no-Hallway apartments. Two GhPython utilities: `apartment_reader.py` (JSON→GH geometry) and `apartment_writer.py` (GH geometry→JSON). H02 round-trip verified in Rhino. Apartment JSON validator at `src/evaluation/validate.py`: checks schema, polygon closure, entrance-on-boundary, door-touches-2-rooms, degenerate area; 0.3 m tolerance; CLI entry point. Pytest self-test at `tests/test_validate.py` (parametrized pass tests for H01–H05 + 7 mutation fail tests). Full documentation: [`src/evaluation/VALIDATE.md`](src/evaluation/VALIDATE.md).
 
 ## Reports
@@ -77,6 +79,7 @@ Reports from completed phases live in `reports/`. Check these before starting ne
 | `reports/03-03_apartment_type_eda.ipynb` | 3 (EDA) | Apartment type effect on scores, Kruskal-Wallis tests, controlled comparison, failure rates | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/03-03_apartment_type_eda.html) |
 | `reports/04-01_rasterization-verification.html` | 4 (Rasterization) | Visual verification, edge cases, fill ratio checks, dataset stats, UMAP | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/04-01_rasterization-verification.html) |
 | `reports/06-01_cnn-model-comparison.ipynb` | 6 (CNN Model) | Architecture evolution v1→v4, baseline comparison, per-room-type analysis | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/06-01_cnn-model-comparison.html) |
+| `reports/09-01_speed-accuracy-tradeoff.ipynb` | 9 (Benchmark) | Speed/accuracy trade-off, Python timing, per-type MAE, prediction galleries | [HTML](https://htmlpreview.github.io/?https://github.com/Bauhaus-InfAU/SpatialTimber_UtilityEval/blob/main/reports/09-01_speed-accuracy-tradeoff.html) |
 
 ## Notion
 

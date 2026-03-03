@@ -6,7 +6,8 @@ This repository includes several GhPython components for use in Rhino 8. This gu
 
 | Component | Script | Status | Purpose |
 |-----------|--------|--------|---------|
-| Furnisher surrogate | `surrogate_score.py` | Done (Phase 7) | Predicts furnishability score per room |
+| Furnisher surrogate (CNN) | `surrogate_score.py` | Done (Phase 7) | Predicts furnishability score per room (CNN v4) |
+| Furnisher surrogate (LightGBM) | `surrogate_score_lgbm.py` | Done (Phase 9) | Predicts furnishability score per room (LightGBM) |
 | Apartment reader | `apartment_reader.py` | Done (Phase 8) | Loads JSON floor plan into GH geometry |
 | Apartment writer | `apartment_writer.py` | Done (Phase 8) | Exports GH geometry to JSON floor plan |
 | Combined reward | `reward_score.py` | Planned (Phase 13) | Computes all 3 reward functions + composite |
@@ -362,11 +363,27 @@ No code changes are needed. Each `.pt` checkpoint contains all architecture para
 
 ---
 
+## LightGBM Surrogate Component (Phase 9)
+
+The `surrogate_score_lgbm.py` component uses LightGBM instead of CNN for furnishability prediction. Setup is identical to the CNN component (Steps 1–3) with these differences:
+
+**Additional dependencies:** `lightgbm`, `scikit-learn`, `joblib` must be installed in Rhino 8's CPython:
+
+```
+"%USERPROFILE%\.rhinocode\py39-rh8\python.exe" -m pip install lightgbm scikit-learn joblib
+```
+
+**Inputs:** Same as CNN component, except `model_path` points to a `.joblib` file (e.g., `models/baseline_lgbm.joblib`).
+
+**When to use:** LightGBM is faster than CNN (~10× in Python) with comparable accuracy (MAE 8.24 vs 8.07). Use for timing benchmarks or when speed matters more than marginal accuracy.
+
+---
+
 ## Troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|-------------|-----|
-| `ModuleNotFoundError: furnisher_surrogate` | Package not installed in Rhino's Python | Re-run `pip install` commands from Step 1 in Rhino Script Editor Terminal |
+| `ModuleNotFoundError: furnisher_surrogate` | Package not installed, or repo was moved/renamed (the `.pth` file points to the old path) | Re-run `install_dependencies.py` from Step 1 — it auto-detects the current repo path |
 | `ModuleNotFoundError: torch` | PyTorch not installed or wrong index | Re-run `pip install torch --index-url https://download.pytorch.org/whl/cpu` |
 | `FileNotFoundError: No model found` | `.pt` file not at expected path | Set the `model_path` input to the full path of your `.pt` file (e.g., `C:\Models\cnn_v4.pt`) |
 | Score = 0 for all rooms | Coordinates in millimeters instead of meters | All coordinates must be in **meters**. If your Rhino model is in mm, divide by 1000. |

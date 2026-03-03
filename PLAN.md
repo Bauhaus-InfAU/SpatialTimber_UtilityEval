@@ -20,12 +20,12 @@ Three-function reward toolkit for RL-based apartment layout design. Furnishabili
 | 6 | **CNN Model** | 6/6 | `done` | [details](plans/06-cnn-model.md) |
 | 7 | **Grasshopper** | 9/9 | `done` | [details](plans/07-grasshopper.md) |
 | 8 | **Floor Plan Representation + Test Set** | 9/9 | `done` | [details](plans/08-floor-plan-representation.md) |
-| 9 | **Speed/Accuracy Benchmark** | 0/7 | `pending` | [details](plans/09-accuracy-benchmark.md) |
+| 9 | **Speed/Accuracy Benchmark** | 5/7 | `in progress` | [details](plans/09-accuracy-benchmark.md) |
 | 10 | **Simple Furnisher Surrogate** | 0/7 | `pending` | [details](plans/10-simple-surrogate.md) |
 | 11 | **Daylight Accessibility** | 0/6 | `pending` | [details](plans/11-daylight.md) |
 | 12 | **Circulation Accessibility** | 0/6 | `pending` | [details](plans/12-circulation.md) |
 | 13 | **Combined Reward + GH Integration** | 0/7 | `pending` | [details](plans/13-combined-reward.md) |
-| | **Total** | **57/88** | | |
+| | **Total** | **62/88** | | |
 
 ## Documentation Strategy
 

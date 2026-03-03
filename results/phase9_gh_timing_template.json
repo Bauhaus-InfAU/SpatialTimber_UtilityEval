@@ -1,0 +1,7 @@
+{
+  "n_rooms": 180,
+  "procedural_total_seconds": null,
+  "cnn_v4_total_seconds": null,
+  "lgbm_total_seconds": null,
+  "notes": "Fill in total batch times from Grasshopper. Feed all 180 rooms as list inputs, record wall-clock time for each method. Save completed file as results/phase9_gh_timing.json"
+}
